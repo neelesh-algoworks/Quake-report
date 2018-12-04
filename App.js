@@ -1,9 +1,11 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import HomeScreen from "./components/HomeScreen";
+import EarthquakeScreen from "./components/Earthquakes";
 
 const Root = createStackNavigator(
   {
     Home: HomeScreen,
+    Earthquakes: EarthquakeScreen,
   },
   {
     initialRouteName: 'Home',

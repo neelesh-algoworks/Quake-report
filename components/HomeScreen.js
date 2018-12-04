@@ -16,7 +16,7 @@ export default class HomeScreen extends Component {
                     </Text>
                 </View>
                 <View style={styles.formContainer}>
-                    <QueryForm />
+                    <QueryForm navigation={this.props.navigation}/>
                 </View>
             </View>
         );
